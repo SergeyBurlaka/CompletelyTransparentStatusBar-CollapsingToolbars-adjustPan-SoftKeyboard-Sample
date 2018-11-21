@@ -1,6 +1,8 @@
 ## Completely Transparent StatusBar with Collapsing Toolbars Layer Sample
 
-Main Idea to set param android:fitsSystemWindows="true" for set image background content under the status bar layer. And make status bar transparent. So that only image background will be visisble.
+Main Idea to set param android:fitsSystemWindows="true" for set image background content under the status bar layer. And make status bar transparent. So that only image background will be visisble. 
+
+Has some issue in case with CollapsingToolbarLayout adjust resize flag not working when show Soft KeyBoard. But always work with adjustPan instaed adjustResize 
  
  ## References
  
