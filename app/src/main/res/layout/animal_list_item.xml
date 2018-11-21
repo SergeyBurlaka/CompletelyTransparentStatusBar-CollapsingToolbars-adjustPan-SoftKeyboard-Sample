@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="com.b5eg.sergburlaka.keyboard.Animal" />
+
+        <import type="android.view.View" />
+
+        <variable
+            name="animal"
+            type="Animal" />
+    </data>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/tv_animal_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@={animal.nameAnimal}"
+            android:textSize="20sp" />
+
+    </FrameLayout>
+
+</layout>
