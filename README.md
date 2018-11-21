@@ -4,7 +4,7 @@ Main Idea to set param android:fitsSystemWindows="true" for set image background
 
 Has some issue. In case with CollapsingToolbarLayout adjust resize flag not working when show Soft KeyBoard. But always work with adjustPan instaed adjustResize 
  
- ## References
+ ## Research
  
 [problem ](https://stackoverflow.com/questions/29311078/android-completely-transparent-status-bar),
  [about fitsSystemWindows ](https://medium.com/androiddevelopers/why-would-i-want-to-fitssystemwindows-4e26d9ce1eec),
